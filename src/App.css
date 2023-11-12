@@ -8,11 +8,12 @@
 .charts{
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 1.5rem;
 }
-
 .pie-chart{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     max-width: 50%;
     height: auto;
 }
