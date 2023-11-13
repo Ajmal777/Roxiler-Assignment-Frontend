@@ -6,6 +6,7 @@ import MyTable from "./Components/Table";
 import Statistics from "./Components/Statistics";
 import BarChart from "./Components/Chart/BarChart";
 import PieChart from "./Components/Chart/PieChart";
+alert('The API has been hosted on Render, so it might take some time for the backend to reboot and display data.');
 function App() {
   const [search, setSearch] = useState("");
   const [month, setMonth] = useState(3);
